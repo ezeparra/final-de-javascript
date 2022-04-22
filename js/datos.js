@@ -1,0 +1,22 @@
+const usuarios = [
+    { nombre: "eze", clave: "12345", tipo: "admin" },
+    { nombre: "usuario", clave: "54321", tipo: "comun" },
+]
+
+// aca van los datos
+
+const productos = [
+    { id: '0', tipo: "casco", modelo: "casco enduro", precio: 40000, img: "./img/cascolentes.webp" },
+    { id: '1', tipo: "slime", modelo: "Slime 473ml ", precio: 350000, img: "./img/slime.webp" },
+    { id: '2', tipo: "pulsador", modelo: "Pulsador Largador", precio: 400000, img: "./img/pulsador.webp" },
+    { id: '3', tipo: "protector", modelo: "protector moto", precio: 90000, img: "./img/protectorcalzado.webp" },
+    { id: '4', tipo: "pasa montana", modelo: "Pasamontaña", precio: 70000, img: "./img/pasamontana.webp" },
+    { id: '5', tipo: "botas", modelo: "botas moto", precio: 35000, img: "./img/botas.webp" },
+    { id: '6', tipo: "Cadena", modelo: "Cadena", precio: 200000, img: "./img/cadena.webp" },
+    { id: '7', tipo: "campera", modelo: "traje de lluvia", precio: 200000, img: "./img/campearadelluvia.webp" },
+    { id: '8', tipo: "candado", modelo: "Candado 6mm", precio: 200000, img: "./img/candado.webp" },
+  ];
+
+
+
+const carrito = [];
