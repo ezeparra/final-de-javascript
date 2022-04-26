@@ -1,102 +1,122 @@
 html,
 body {
-  background-color: #ededed;
-  background: linear-gradient(to right, #000201, #646867);
+	background-color: #ededed;
+	background: linear-gradient(to right, #000201, #646867);
 }
 
 header {
-  width: 100%;
-  height: 8%;
-  display: flex;
-  justify-content:center;
-  align-content:center;
-  background-color: rgb(2, 2, 2);
-  margin:0;
-  
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(2, 2, 2);
+	margin: 0;
+	gap: 2rem;
 }
 
 .titulo-pagina {
-  color: red;
-  background-color: rgb(0, 0, 0);
-  justify-self: center;
-  align-self: flex-start;
+	color: red;
+	background-color: rgb(0, 0, 0);
+	margin: 0;
 }
 
-.bi-cart {
-  color: rgb(233, 13, 13);
-  font-size: 35px;
-  margin-left: 40px;
+.bi-cart,
+.bi-box-arrow-right {
+	color: rgb(233, 13, 13);
+	font-size: 35px;
 }
-
-
 
 .contenedor-tienda {
-  padding-top: 3%;
-  display:inline-block;
-  width: 100%;
-  height: auto;
-  justify-content: space-around;
-  background-color: #ededed;
-  background: linear-gradient(to right, #000201, #646867);
-  flex-wrap: wrap;
+	display: grid;
+	width: 100%;
+	height: auto;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 1rem;
+	padding: 1rem;
+	background-color: #ededed;
+	background: linear-gradient(to right, #000201, #646867);
 }
-.login-tienda{
-    height: 400px;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
-    background: rgb(0, 0, 0);
-    color: white;
-    font-weight: bold;
-    margin-top: 10%;
-    border-radius: 5%;
-  }
+.login-tienda {
+	height: 400px;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2%;
+	background: rgb(0, 0, 0);
+	color: white;
+	font-weight: bold;
+	margin-top: 10%;
+	border-radius: 5%;
+}
 
 .card {
-  height: 500px;
-  width: 400px;
-  margin: 30px 30px;  
-  display:inline-table;
-  justify-content:center;
-  flex-direction: center;
+	display: inline-table;
+	justify-content: center;
+	flex-direction: center;
+	padding: 0.1rem;
 }
-.ing{
-    margin-top: 5%;
-    border-radius: 7%;
-  }
+.card .btn {
+	width: 100%;
+}
+.ing {
+	margin-top: 5%;
+	border-radius: 7%;
+}
 
 .card-img-top {
-  height: 50%;
-  width: 50%;
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
 }
 
 .nombre-producto {
-  color: rgb(75, 118, 235);
-  font-weight: 800;
+	color: rgb(75, 118, 235);
+	font-weight: bold;
 }
 
 .card-precio {
-  font-weight: 500;
-  color: rgb(69, 69, 171);
+	font-weight: thin;
+	color: rgb(69, 69, 171);
 }
 
-.hidden{
-  display: none;
+.hidden {
+	display: none !important;
 }
 
-.contenedor-carrito{
-
-  height: 100%;
-  display:inline-block;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.carrito {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	padding: 1rem;
 }
-.error-login{
-    color: red;
-    font-weight: 600;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
+.carrito-item {
+	width: 100%;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 0 2rem;
+	border-radius: 0.25rem;
+}
+.carrito-item-nombre-precio {
+	flex: 1;
+}
+.carrito-item-imagen {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}
+.error-login {
+	color: red;
+	font-weight: 600;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.white {
+	color: white;
+}
