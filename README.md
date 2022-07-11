@@ -9,7 +9,7 @@ Single Page project para cursada de Java Script en Coderhouse, utilizando Js en 
 HTML CSS Javascript Vanilla  Git/GitHub VSC Boostrap  Adobe Photoshop  SEO
 
 # Deployment 
-Realizado en GitHub Pagues para acceso directo  👈 👈 (accede desde aqui)
+Realizado en GitHub Pagues para acceso directo https://ezeparra.github.io/final-de-javascript/ 👈 👈 (accede desde aqui)
 
 #🚀About Me 
 Estudiante de carrera de Front-End Developer en CoderHouse. De Cordoba, Argentina. Adquiriendo conocimientos con ansias de incursionar en el mundo IT.
